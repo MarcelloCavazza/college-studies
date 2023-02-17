@@ -1,1 +1,1 @@
-College projects about subject: Data Sctructure and Algorithms
+College projects about subject: Algorithms and Data Sctructure
