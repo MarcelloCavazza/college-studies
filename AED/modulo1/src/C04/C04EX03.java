@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class C04EX03 {
     public static void main(String[] args) {
-        Double multaInicial, multaMediana, multaFinal,
+        double multaInicial, multaMediana, multaFinal,
                 poluenteMinimo, poluenteMediano1, poluenteMediano2, poluenteFinal;
         Scanner teclado = new Scanner(System.in);
 
@@ -24,7 +24,7 @@ public class C04EX03 {
         System.out.print("Insira o poluente final: ");
         poluenteFinal = teclado.nextDouble();
 
-        System.out.println("Quantidade de Poluente Emitido x Valor da Multa"+
+        System.out.println("Quantidade de Poluente Emitido x Valor da Multa\n"+
                 "\nAte "+poluenteMinimo+" multa de R$"+multaInicial+
                 "\nEntre "+poluenteMediano1+" e "+poluenteMediano2+" multa de R$"+multaMediana+
                 "\nAcima de "+poluenteFinal+" multa de R$"+multaFinal);

@@ -1,9 +1,10 @@
 package C04;
 
 import javax.swing.*;
-import java.util.Scanner;
 
 public class C04EX04 {
+    // Função: Pega seu nome completo e sua idade, mostrando um resumo no final via Dialog
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         String primeiroNome, segundoNome, ultimoNome, title = "Dados do usuário";
         int idade;
