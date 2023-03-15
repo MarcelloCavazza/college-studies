@@ -12,7 +12,7 @@ public class C05EX12 {
 
         horas = valorInicialEmSegundos / 3600;
         minutos = valorInicialEmSegundos % 3600 / 60;
-        segundos = valorInicialEmSegundos % 3600 % 60 % 60 ;
+        segundos = valorInicialEmSegundos % 3600 % 60;
 
         System.out.println(valorInicialEmSegundos+"seg eh equivalente ah "+horas+"h "+minutos+"min e "+segundos+"seg");
         teclado.close();
