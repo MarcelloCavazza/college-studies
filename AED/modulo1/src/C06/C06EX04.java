@@ -25,9 +25,9 @@ public class C06EX04 {
             System.out.println(nomeUsuario + " esta abaixo do peso");
         } else if (imc >= 20 && imc <= 25) {
             System.out.println(nomeUsuario + " esta no peso ideal");
-        } else if (imc > 25) {
+        } else if (imc > 25 && imc <=27) {
             System.out.println(nomeUsuario + " esta acima do peso");
-        } else if (imc > 27) {
+        } else{
             System.out.println(nomeUsuario + "esta obeso(a)");
         }
 
