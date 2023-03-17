@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class C06EX04 {
     public static void main(String[] args) {
-        String nomeUsuario;
+        String nomeUsuario, mensagemFinal;
         double peso, altura, imc;
         Scanner teclado = new Scanner(System.in);
 
@@ -20,17 +20,17 @@ public class C06EX04 {
         imc = peso / Math.pow(altura, 2);
 
         if(imc < 18){
-            System.out.println(nomeUsuario + " esta desnutrido(a)");
+            mensagemFinal = nomeUsuario + " esta desnutrido(a)";
         }else if(imc < 20){
-            System.out.println(nomeUsuario + " esta abaixo do peso");
+            mensagemFinal =  nomeUsuario + " esta abaixo do peso";
         } else if (imc >= 20 && imc <= 25) {
-            System.out.println(nomeUsuario + " esta no peso ideal");
+            mensagemFinal = nomeUsuario + " esta no peso ideal";
         } else if (imc > 25 && imc <=27) {
-            System.out.println(nomeUsuario + " esta acima do peso");
+            mensagemFinal = nomeUsuario + " esta acima do peso";
         } else{
-            System.out.println(nomeUsuario + "esta obeso(a)");
+            mensagemFinal = nomeUsuario + " esta obeso(a)";
         }
-
+        System.out.println(mensagemFinal);
         teclado.close();
 
     }

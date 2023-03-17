@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class C06EX06 {
     public static void main(String[] args) {
         int a, b, c;
-        double delta, fx, fxNegativo,xNegativo, xPositivo, fxPositivo;
+        double delta;
+        String mensagemFinal;
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Insira o valor A: ");
@@ -17,16 +18,22 @@ public class C06EX06 {
 
         delta = Math.pow(b, 2) - 4*a*c;
         if(delta == 0){
-            fx = -b - Math.sqrt(delta);
-            System.out.println("Teremos 1 raiz: "+fx);
+            double fx;
+            fx = -b / (2*a);
+            mensagemFinal = "Teremos 1 raiz: "+fx;
         }else if(delta < 0){
-            System.out.println("Nao existe raiz");
+            mensagemFinal = "Nao existe raiz";
         }else{
+            double xNegativo, xPositivo, fxPositivo, fxNegativo;
             xNegativo = -b - Math.sqrt(delta);
-            
-            fxPositivo = -b + Math.sqrt(delta);
-            System.out.println("Teremos 2 raiz: "+fxPositivo+" e "+fxNegativo);
+            xPositivo = -b + Math.sqrt(delta);
+
+            fxPositivo = xPositivo / (2*a);
+            fxNegativo = xNegativo / (2*a);
+            mensagemFinal = "Teremos 2 raiz: "+fxPositivo+" e "+fxNegativo;
         }
+
+        System.out.println(mensagemFinal);
 
         teclado.close();
     }
