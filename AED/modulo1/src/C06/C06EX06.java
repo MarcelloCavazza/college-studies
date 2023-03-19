@@ -3,6 +3,7 @@ package C06;
 import java.util.Scanner;
 
 public class C06EX06 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         int a, b, c;
         double delta;

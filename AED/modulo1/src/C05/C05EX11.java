@@ -3,6 +3,7 @@ package C05;
 import java.util.Scanner;
 
 public class C05EX11 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         int numeroDoBanco;
         Scanner teclado = new Scanner(System.in);

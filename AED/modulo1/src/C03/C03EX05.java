@@ -3,7 +3,6 @@ package C03;
 import java.util.Scanner;
 
 public class C03EX05 {
-    // Função: Calcula a sua idade
     // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         String nome;

@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.util.Scanner;
 
 public class C04EX05 {
-    // Função: Pega seus dados pessoais e nome de empresa de um arquivo, mostrando o resumo no Dialog
     // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         String nomeDoUsuario, nomeDaEmpresa,

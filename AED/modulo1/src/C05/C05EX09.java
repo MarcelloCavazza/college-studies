@@ -3,6 +3,7 @@ package C05;
 import java.util.Scanner;
 
 public class C05EX09 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         int peso1 = 2, peso2 = 3, peso3 = 5;
         double nota1, nota2, nota3, resultado;

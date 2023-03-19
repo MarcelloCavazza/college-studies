@@ -3,6 +3,7 @@ package C06;
 import java.util.Scanner;
 
 public class C06EX07 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         double salario, plLiquido, plBruto, impostoDeRenda;
         Scanner teclado = new Scanner(System.in);

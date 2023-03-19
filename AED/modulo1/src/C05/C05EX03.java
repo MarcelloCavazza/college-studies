@@ -4,6 +4,7 @@ import java.io.Console;
 import java.util.Scanner;
 
 public class C05EX03 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         double salario, resultadoIR, salarioLiquido;
         int numeroDeDependentes;

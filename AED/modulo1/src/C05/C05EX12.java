@@ -3,6 +3,7 @@ package C05;
 import java.util.Scanner;
 
 public class C05EX12 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         int segundos = 0, minutos = 0, horas= 0, valorInicialEmSegundos;
         Scanner teclado = new Scanner(System.in);

@@ -3,7 +3,6 @@ package C03;
 import java.util.Scanner;
 
 public class C03EX03 {
-    // Função: Calcula a hipotenusa com o valor de dois catetos
     // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         double hipotenusa, cateto1, cateto2;

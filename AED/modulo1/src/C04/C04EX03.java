@@ -3,6 +3,7 @@ package C04;
 import java.util.Scanner;
 
 public class C04EX03 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         double multaInicial, multaMediana, multaFinal,
                 poluenteMinimo, poluenteMediano1, poluenteMediano2, poluenteFinal;

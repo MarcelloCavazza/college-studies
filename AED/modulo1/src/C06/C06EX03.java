@@ -3,6 +3,7 @@ package C06;
 import java.util.Scanner;
 
 public class C06EX03 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         final double salarioFixo = 240.0;
         double salarioFinal, comissao;

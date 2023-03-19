@@ -3,6 +3,7 @@ package C05;
 import java.util.Scanner;
 
 public class C05EX08 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         double setor, angulo, raio;
         final double pi = 3.1416;

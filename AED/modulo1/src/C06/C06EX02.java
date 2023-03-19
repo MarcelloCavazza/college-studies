@@ -3,6 +3,7 @@ package C06;
 import java.util.Scanner;
 
 public class C06EX02 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         float quantidadeDePoluentesEmitidos;
         Scanner teclado = new Scanner(System.in);

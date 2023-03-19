@@ -3,6 +3,7 @@ package C04;
 import java.util.Scanner;
 
 public class C04EX02 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         String nomeDoUsuario, nomeDaEmpresa,
                 cpf, identidade, tituloDeEleitor,

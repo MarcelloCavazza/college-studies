@@ -3,6 +3,7 @@ package C06;
 import java.util.Scanner;
 
 public class C06EX08 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         String name;
         double alturaMetros, pesoMin, pesoMax;

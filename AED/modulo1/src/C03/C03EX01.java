@@ -3,7 +3,6 @@ package C03;
 import java.util.Scanner;
 
 public class C03EX01 {
-    // Função : Calcular o fatorial de um número
     // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
             Scanner teclado = new Scanner(System.in);
