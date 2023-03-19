@@ -5,19 +5,17 @@ import java.util.Scanner;
 public class C06EX06 {
     // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
-        int a, b, c;
-        double delta;
         String mensagemFinal;
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Insira o valor A: ");
-        a = teclado.nextInt();
+        int a = teclado.nextInt();
         System.out.print("Insira o valor b: ");
-        b = teclado.nextInt();
+        int b = teclado.nextInt();
         System.out.print("Insira o valor c: ");
-        c = teclado.nextInt();
+        int c = teclado.nextInt();
 
-        delta = Math.pow(b, 2) - 4*a*c;
+        double delta = Math.pow(b, 2) - 4*a*c;
         if(delta == 0){
             double fx;
             fx = -b / (2*a);

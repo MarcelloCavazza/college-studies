@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class C06EX04 {
     // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
-        String nomeUsuario, mensagemFinal;
-        double peso, altura, imc;
+        String mensagemFinal;
+
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Insira sua altura: ");
-        altura = teclado.nextDouble();
+        double altura = teclado.nextDouble();
 
         System.out.print("Insira o seu peso: ");
-        peso = teclado.nextDouble();
+        double peso = teclado.nextDouble();
 
         System.out.print("Insira seu nome: ");
-        nomeUsuario = teclado.next();
+        String nomeUsuario = teclado.next();
 
-        imc = peso / Math.pow(altura, 2);
+        double imc = peso / Math.pow(altura, 2);
 
         if(imc < 18){
             mensagemFinal = nomeUsuario + " esta desnutrido(a)";

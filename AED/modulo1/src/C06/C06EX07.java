@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class C06EX07 {
     // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
-        double salario, plLiquido, plBruto, impostoDeRenda;
+        double plBruto, impostoDeRenda;
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Insira o salario: ");
-        salario = teclado.nextDouble();
+        double salario = teclado.nextDouble();
 
         if(salario <= 300){
             plBruto = 500+ salario*0.7;
@@ -21,7 +21,7 @@ public class C06EX07 {
             plBruto = salario*0.3;
             impostoDeRenda = plBruto * 0.25;
         }
-        plLiquido = plBruto - impostoDeRenda;
+        double plLiquido = plBruto - impostoDeRenda;
 
         System.out.printf("PL Liquido: %.2f", plLiquido);
 
