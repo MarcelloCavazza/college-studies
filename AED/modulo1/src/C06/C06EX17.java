@@ -14,8 +14,7 @@ public class C06EX17 {
                 prefereTrabalharSozinho = false,
                 ehAutididata = false,
                 aceita1500 = false,
-                trabalharEmEscritoriosBh = false,
-                ehApto= false;
+                trabalharEmEscritoriosBh = false;
         System.out.println("SOMENTE RESPONDA COM V OU F");
 
         System.out.print("1- Você tem curso técnico de programação?");
