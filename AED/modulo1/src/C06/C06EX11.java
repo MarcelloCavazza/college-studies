@@ -3,6 +3,7 @@ package C06;
 import java.util.Scanner;
 
 public class C06EX11 {
+    // Autor: Marcello Henrique Cavazza Oliveira
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         String mensagemFinal = "";
@@ -26,8 +27,7 @@ public class C06EX11 {
                     "\nEquipe 2 = "+equipe2Nome+
                     "\nSets da equipe 2 = 3"+
                     "\nPontos "+equipe2Nome+" = 3";
-        }
-        if(equipe2SetsGanhos == 0){
+        }else if(equipe2SetsGanhos == 0){
             mensagemFinal = "Resultado:\n"+
                     "Equipe 1 = "+equipe1Nome+
                     "\nSets da equipe 1 = 3"+
@@ -35,6 +35,8 @@ public class C06EX11 {
                     "\nEquipe 2 = "+equipe2Nome+
                     "\nSets da equipe 2 = 0"+
                     "\nPontos "+equipe2Nome+" = 0";
+        }else{
+
         }
 
         System.out.println(mensagemFinal);

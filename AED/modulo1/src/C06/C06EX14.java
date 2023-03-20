@@ -2,7 +2,8 @@ package C06;
 
 import java.util.Scanner;
 
-public class C06EX14 {
+public class C06EX14 {    // Autor: Marcello Henrique Cavazza Oliveira
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
