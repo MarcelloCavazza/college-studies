@@ -17,16 +17,16 @@ public class C07EX03 {
                 mensagemFinal = "0,00";
                 break;
             case 6: case 7: case 8:
-                mensagemFinal += String.format("%.2f", imposto*0.02+"");
+                mensagemFinal += String.format("%.2f", imposto * 0.02);
                 break;
             case 9: case 10:
-                mensagemFinal += String.format("%.2f", imposto*0.1+imposto*0.05*diasAtraso+"");
-                break;
-            case 1: case 2: case 3: case 4: case 5:
-                mensagemFinal = "Insento de multa";
+                mensagemFinal += String.format("%.2f", imposto*0.1+diasAtraso/2);
                 break;
             default:
+                mensagemFinal = String.format("%.2f", imposto*1.5+diasAtraso);
                 break;
         }
+
+        System.out.println(mensagemFinal);
     }
 }

@@ -27,7 +27,7 @@ public class C06EX16 {    // Autor: Marcello Henrique Cavazza Oliveira
 
         if(faltas <= 5){
             peso1 = 3;
-        } else if (faltas > 5 && faltas <= 10) {
+        } else if (faltas <= 10) {
             peso1 = 2;
         }else{
             peso1 = 1;
@@ -35,7 +35,7 @@ public class C06EX16 {    // Autor: Marcello Henrique Cavazza Oliveira
 
         if(idade <= 17){
             peso2 = 1;
-        } else if (idade > 18 && idade <= 50) {
+        } else if (idade <= 50) {
             peso2 = 2;
         }else{
             peso2 = 3;
