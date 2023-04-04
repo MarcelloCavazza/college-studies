@@ -41,7 +41,7 @@ public class C08EX05 {
         } else {
             resultado = "Beltr";
         }
-        System.out.println("O candidato vencedor foi " + resultado + "ano" +
+        System.out.println("O candidato vencedor foi " + resultado + "ano!" +
                 "\nQuantidade de votos para cada candidato:" +
                 "\n-Fulano: " + votosDoCondidato1 +
                 "\n-Ciclano: " + votosDoCondidato2 +
