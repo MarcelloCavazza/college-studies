@@ -7,8 +7,8 @@ public class C08EX07 {
         Scanner teclado = new Scanner(System.in);
         
         int idade, pessoasComAte12Anos = 0, pessoasComMaisDe30Anos = 0;
-        double media = 0, aux = 5.0;
-        for (int i = 0; i < aux; i++) {
+        double media = 0;
+        for (int i = 0; i < 50; i++) {
             System.out.print("Insira seu nome: ");
             teclado.nextLine();
             if(i > 0){
@@ -24,7 +24,7 @@ public class C08EX07 {
             }
            media += idade; 
         }
-        media = media / aux;
+        media = media / 50.0;
         System.out.println("Pessoas com ate 12 anos: "+pessoasComAte12Anos);
         System.out.println("Pessoas com mais de 30 anos: "+pessoasComMaisDe30Anos); 
         System.out.println("Media total das idades inseridas:"+media); 
