@@ -8,19 +8,19 @@ public class C08EX02 {
         String mensagemFinal;
         double nota;
         int totalDeFaltas;
-        Scanner teclado = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         for (int i = 0; i < 4; i++) {
             System.out.println("(Se quiser sair insira a nota como -1)");
             System.out.print("Insira o valor da nota do aluno: ");
-            nota = teclado.nextDouble();
+            nota = input.nextDouble();
 
             if (nota == -1) {
                 break;
             }
 
             System.out.print("Insira as faltas do aluno: ");
-            totalDeFaltas = teclado.nextInt();
+            totalDeFaltas = input.nextInt();
 
 
             if (nota >= 65 && totalDeFaltas <= 16) {
@@ -32,6 +32,6 @@ public class C08EX02 {
             System.out.println(mensagemFinal + "PROVADO");
         }
 
-        teclado.close();
+        input.close();
     }
 }

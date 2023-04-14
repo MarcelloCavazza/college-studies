@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class C08EX06 {
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int numeroInseridoPeloUsuario, somaDeNumerosDivisiveisPor4 = 0;
         byte quantidadeDeNumerosDivisiveisPor3 = 0;
 
         for (byte i = 0; i < 10; i++){
             System.out.print("Insira um numero inteiro: ");
-            numeroInseridoPeloUsuario = teclado.nextInt();
+            numeroInseridoPeloUsuario = input.nextInt();
             final boolean ehPar = numeroInseridoPeloUsuario % 2 == 0;
             if(ehPar){
                 System.out.println("O numero "+numeroInseridoPeloUsuario+" eh par!");
@@ -31,6 +31,6 @@ public class C08EX06 {
         System.out.println("Soma dos numeros divisiveis por 4 = "+somaDeNumerosDivisiveisPor4);
         System.out.println("Quantidade de numeros divisiveis por 3 = "+quantidadeDeNumerosDivisiveisPor3);
 
-        teclado.close();
+        input.close();
     }
 }
