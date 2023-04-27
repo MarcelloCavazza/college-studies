@@ -38,5 +38,6 @@ public class C08EX15 {
         mediaSalarios18anos = totalSalarios18anos / quantidadeDePessoasAte18 / 1.0;
         System.out.println("Pessoa com maior salario: "+pessoaComMaiorSalario+" e seu cargo eh "+cargoComMaiorSalario);
         System.out.println("Media de salarios para pessoas com maior de 18 anos: "+String.format("%.2f",mediaSalarios18anos));
+        arquivo.close();
     }
 }
